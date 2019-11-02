@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-flow: row;
+  border: 1px solid green;
+  justify-content: space-around;
+  margin: 10px 5px;
+}
+.left {
+  border: 1px solid red;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+}
+.right {
+  text-align: center;
+  border: 1px solid blue;
+  width: 200px;
+  //   height: 100px;
+}
+
+.button {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    border: 2px solid blue;
+    height: 40%;
+    border-radius: 10px;
+  }
+}
